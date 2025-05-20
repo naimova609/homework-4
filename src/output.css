@@ -558,6 +558,10 @@ video {
   margin: auto;
 }
 
+.m-10 {
+  margin: 2.5rem;
+}
+
 .block {
   display: block;
 }
@@ -633,6 +637,11 @@ video {
   background-color: rgb(245 245 245 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#E6F7FF\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(230 247 255 / var(--tw-bg-opacity, 1));
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -686,6 +695,10 @@ video {
 @media (min-width: 640px) {
   .md\:m-0 {
     margin: 0px;
+  }
+
+  .md\:m-\[50px\] {
+    margin: 50px;
   }
 
   .md\:block {
